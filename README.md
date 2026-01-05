@@ -1,25 +1,53 @@
-Progresso nas Aulas do DevDojo 🚀
+# 🚀 Progresso em Java com DevDojo
 
-Desde agosto do ano passado, quando iniciei minha jornada na faculdade, acompanho os vídeos do DevDojo, focados em back-end com Java. Com base na minha disponibilidade, sempre estudei e evoluí bastante com o conteúdo do canal.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Evolução-success?style=for-the-badge)
 
-Neste repositório, compartilho meu progresso e as implementações realizadas ao longo do tempo. 💻✨
+## 📚 Sobre o Repositório
 
-O que você vai encontrar aqui:
+Desde **agosto do ano passado**, quando iniciei minha jornada na faculdade, venho estudando **Java Back-end** através dos vídeos do **DevDojo**.  
+Este repositório foi criado para **documentar minha evolução**, aplicar os conceitos aprendidos e consolidar o conhecimento na prática.
 
-Aulas e exercícios práticos: Implementações baseadas nos vídeos do DevDojo.
+Aqui você encontrará **código real**, **exercícios práticos** e **implementações progressivas**, tudo organizado conforme avanço nas aulas. 💻✨
 
-Evolução contínua: O repositório será atualizado com novas aulas e conteúdos conforme eu progredir.
+---
 
-Sugestão de aprendizado: Recomendo o DevDojo para quem deseja aprimorar suas habilidades em Java!
+## 🧠 O que você vai encontrar aqui
 
-Tecnologias utilizadas
+✅ **Aulas e exercícios práticos**  
+Implementações baseadas diretamente nos vídeos do DevDojo.
 
-Java
+📈 **Evolução contínua**  
+O repositório é atualizado conforme avanço nos estudos e novos conteúdos são aprendidos.
 
-IntelliJ IDEA
+💡 **Sugestão de aprendizado**  
+Recomendo fortemente o **DevDojo** para quem deseja se aprofundar em **Java e Back-end** com conteúdo de qualidade e gratuito.
 
-DevDojo
+---
 
-📈 Atualizações
+## 🛠️ Tecnologias Utilizadas
 
-Este repositório será constantemente atualizado com novas implementações. No momento, estou na aula 54 do DevDojo.
+- ☕ **Java**
+- 💻 **IntelliJ IDEA**
+- 🎓 **DevDojo (YouTube)**
+
+---
+
+## 📌 Progresso Atual
+
+📍 **Aula atual:** 54  
+📅 **Status:** Em andamento  
+🚀 **Foco:** Fundamentos sólidos de Java + boas práticas
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```bash
+📦 devdojo-java
+ ┣ 📂 aulas
+ ┃ ┣ 📂 fundamentos
+ ┃ ┣ 📂 orientacao-objetos
+ ┃ ┗ 📂 outros-conceitos
+ ┣ 📄 README.md
