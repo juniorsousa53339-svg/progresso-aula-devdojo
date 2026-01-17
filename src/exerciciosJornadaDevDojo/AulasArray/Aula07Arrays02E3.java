@@ -1,4 +1,4 @@
-
+package exerciciosJornadaDevDojo.AulasArray;
 
 public class Aula07Arrays02E3 {
      public static void main(String[] args) {

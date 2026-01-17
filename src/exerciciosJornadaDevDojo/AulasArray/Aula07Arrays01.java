@@ -1,3 +1,5 @@
+package exerciciosJornadaDevDojo.AulasArray;
+
 import java.util.Scanner;
 
 public class Aula07Arrays01{

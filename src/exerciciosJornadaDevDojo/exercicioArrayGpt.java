@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package exerciciosJornadaDevDojo;
 
 public class exercicioArrayGpt {
     static void main(String[] args) {

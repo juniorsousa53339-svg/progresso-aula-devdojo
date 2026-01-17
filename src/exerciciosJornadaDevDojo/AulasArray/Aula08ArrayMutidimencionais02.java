@@ -1,4 +1,4 @@
-
+package exerciciosJornadaDevDojo.AulasArray;
 
 public class Aula08ArrayMutidimencionais02 {
     static void main(String[] args) {

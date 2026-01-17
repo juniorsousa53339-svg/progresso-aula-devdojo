@@ -1,3 +1,5 @@
+package exerciciosJornadaDevDojo;
+
 import java.util.Scanner;
 
 public class exercicioArraymutiGpt {

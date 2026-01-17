@@ -1,3 +1,5 @@
+package exerciciosJornadaDevDojo;
+
 public class ExercicioChatComtroleEstoque {
     public static void main(String[] args) {
 
