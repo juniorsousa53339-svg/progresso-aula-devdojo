@@ -30,6 +30,7 @@ public class Anime {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
+        System.out.println(this.genero);
     }
 
     public void setNome(String nome) {
