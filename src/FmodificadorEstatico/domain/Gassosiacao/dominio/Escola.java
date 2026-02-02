@@ -4,6 +4,7 @@ public class Escola {
     private String nome;
     private Professor[] professores;
 
+    // Metodo Construtor
     public Escola(String nome, Professor[] professores) {
         this.nome = nome;
         this.professores = professores;
@@ -21,6 +22,7 @@ public class Escola {
 
     }
 
+    // Getters e Setters
     public String getNome() {
         return nome;
     }

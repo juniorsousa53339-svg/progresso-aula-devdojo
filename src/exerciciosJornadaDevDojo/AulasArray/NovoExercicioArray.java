@@ -1,4 +1,4 @@
-package exerciciosJornadaDevDojo;
+package exerciciosJornadaDevDojo.AulasArray;
 
 import java.util.Scanner;
 

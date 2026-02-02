@@ -1,4 +1,4 @@
-package exerciciosJornadaDevDojo;
+package exerciciosJornadaDevDojo.ExerciciosChatGpt;
 
 public class ExercicioChatComtroleEstoque {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exerciciosJornadaDevDojo;
+package exerciciosJornadaDevDojo.ExerciciosChatGpt;
 
 import java.util.Scanner;
 
