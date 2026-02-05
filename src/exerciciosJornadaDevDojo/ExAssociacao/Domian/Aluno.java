@@ -1,13 +1,15 @@
 package exerciciosJornadaDevDojo.ExAssociacao.Domian;
 
-public class Estudantes {
+public class Aluno {
     private String nome;
     int idade;
+    private Seminarios seminarios;
 
-
-    public Estudantes(String nome, int idade) {
+    //Construtor
+    public Aluno(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
+
 
         //  CHAMANDO VALIDATIONS
         ValidarIdade(this.idade);
@@ -30,6 +32,14 @@ public class Estudantes {
         this.nome = nome;
     }
 
+    public Seminarios getSeminarios() {
+        return seminarios;
+    }
+
+    public void setSeminarios(Seminarios seminarios) {
+        this.seminarios = seminarios;
+    }
+
     //  Validations
     private void ValidarNome(String nome) {
 
@@ -37,6 +47,7 @@ public class Estudantes {
             throw new IllegalArgumentException("Nome não poder ser nulo ou vazio.");
         }
     }
+
     private void ValidarIdade(int idade) {
 
         if (idade < 6) {

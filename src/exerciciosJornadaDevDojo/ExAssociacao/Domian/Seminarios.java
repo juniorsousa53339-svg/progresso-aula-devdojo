@@ -2,11 +2,15 @@ package exerciciosJornadaDevDojo.ExAssociacao.Domian;
 
 public class Seminarios {
     private String Titulo;
-    private  String [] TituloSem = {"A evolução da Programaçãp", "Como surgio A internet", "Como a IA está mudando o mundo"};
+    private Aluno[] alunos;
+    private Local local;
+
 
     // Construtor
-    public Seminarios(String titulo) {
-        Titulo = titulo;
+    public Seminarios(String titulo, Aluno[] alunos, Local local) {
+       this.Titulo = titulo;
+        this.alunos = alunos;
+        this.local = local;
 
         validar(this.Titulo);
     }
@@ -16,6 +20,21 @@ public class Seminarios {
     }
     public void setTitulo(String titulo) {
         Titulo = titulo;
+    }
+
+    public Aluno[] getAlunos() {
+        return alunos;
+    }
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
+    }
+
+
+    public Local getLocal() {
+        return local;
+    }
+    public void setLocal(Local local) {
+        this.local = local;
     }
 
     // Validation
