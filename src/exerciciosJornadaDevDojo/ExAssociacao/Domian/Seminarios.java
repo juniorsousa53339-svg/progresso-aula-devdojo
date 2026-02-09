@@ -6,9 +6,13 @@ public class Seminarios {
     private Local local;
 
 
-    // Construtor
+    public Seminarios(String titulo, Local local) {
+        this.Titulo = titulo;
+        this.local = local;
+    }
+
     public Seminarios(String titulo, Aluno[] alunos, Local local) {
-       this.Titulo = titulo;
+        this.Titulo = titulo;
         this.alunos = alunos;
         this.local = local;
 
@@ -18,6 +22,7 @@ public class Seminarios {
     public String getTitulo() {
         return Titulo;
     }
+
     public void setTitulo(String titulo) {
         Titulo = titulo;
     }
@@ -25,6 +30,7 @@ public class Seminarios {
     public Aluno[] getAlunos() {
         return alunos;
     }
+
     public void setAlunos(Aluno[] alunos) {
         this.alunos = alunos;
     }
@@ -33,6 +39,7 @@ public class Seminarios {
     public Local getLocal() {
         return local;
     }
+
     public void setLocal(Local local) {
         this.local = local;
     }
