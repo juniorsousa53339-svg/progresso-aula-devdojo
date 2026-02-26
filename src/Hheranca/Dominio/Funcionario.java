@@ -5,6 +5,11 @@ public class Funcionario extends Pessoa{
     private String Cargo;
 
 
+    public Funcionario(String nome) {
+        super(nome);
+
+    }
+
     public void imprime(){
         super.imprime();
         System.out.println("Salario: "+ salario);

@@ -1,14 +1,20 @@
 package Hheranca.Dominio;
 
-public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+public class Pessoa  {
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
+
+
+    public Pessoa(String nome) {
+        super();
+        this.nome = nome;
+    }
 
     public void imprime() {
         System.out.println();
         System.out.println("---------------------------------");
-        System.out.println("Nome: "+ this.nome);
+        System.out.println("Nome: " + this.nome);
         System.out.println("CPF: " + this.cpf);
         System.out.println("Rua: " + this.endereco.getRua());
         System.out.println("CEP: " + this.endereco.getCep());
