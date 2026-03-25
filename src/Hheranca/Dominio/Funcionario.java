@@ -49,4 +49,7 @@ public class Funcionario extends Pessoa{
     public void setCargo(String cargo) {
         Cargo = cargo;
     }
+
+
+
 }
