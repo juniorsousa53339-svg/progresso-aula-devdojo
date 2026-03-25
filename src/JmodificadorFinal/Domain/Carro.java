@@ -2,11 +2,9 @@ package JmodificadorFinal.Domain;
 
 public class Carro {
     private String nome;
-    public  final double VELOCIDADE_LIMITE;
+    public static final double VELOCIDADE_LIMITE = 300;
 
-    {
-        VELOCIDADE_LIMITE = 300;
-    }
+
 
 
     public String getNome() {
