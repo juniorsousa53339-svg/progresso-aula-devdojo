@@ -1,6 +1,5 @@
 package exerciciosJornadaDevDojo.Isobrescrita.domain;
 
-import FmodificadorEstatico.domain.AnimeModificador;
 
 public class Desenho extends Object {
     private String nome;
